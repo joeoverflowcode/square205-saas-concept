@@ -1,6 +1,7 @@
 import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
+import logo from '../public/images/xora.svg'
 
 
 const Header = () => {
@@ -57,7 +58,7 @@ const Header = () => {
 
                   )}>
                     <img
-                      src="/images/205.svg"
+                      src={logo}
                       width={180}
                       height={55}
                       alt="logo"
