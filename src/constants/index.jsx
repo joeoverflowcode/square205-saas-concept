@@ -353,3 +353,70 @@ export const features = [
       url: "#",
     },
   ];
+
+
+  export const logos = [
+    {
+      id: "0",
+      title: "Afterpay",
+      url: withBaseURL("/images/logos/afterpay.svg"),
+      width: 156,
+      height: 48,
+    },
+    {
+      id: "1",
+      title: "Amplitude",
+      url: withBaseURL("/images/logos/amplitude.svg"),
+      width: 194,
+      height: 48,
+    },
+    {
+      id: "2",
+      title: "Sonos",
+      url: withBaseURL("/images/logos/sonos.svg"),
+      width: 115,
+      height: 48,
+    },
+    {
+      id: "3",
+      title: "Maze",
+      url: withBaseURL("/images/logos/maze.svg"),
+      width: 142,
+      height: 48,
+    },
+    {
+      id: "4",
+      title: "Drips",
+      url: withBaseURL("/images/logos/drips.svg"),
+      width: 77,
+      height: 48,
+    },
+  ];
+  
+
+  export const socials = [
+    {
+      id: "0",
+      title: "x",
+      icon: withBaseURL("/images/socials/x.svg"),
+      url: "#",
+    },
+    {
+      id: "1",
+      title: "Threads",
+      icon: withBaseURL("/images/socials/threads.svg"),
+      url: "#",
+    },
+    {
+      id: "2",
+      title: "Instagram",
+      icon: withBaseURL("/images/socials/instagram.svg"),
+      url: "#",
+    },
+    {
+      id: "3",
+      title: "Discord",
+      icon: withBaseURL("/images/socials/discord.svg"),
+      url: "#",
+    },
+  ]
